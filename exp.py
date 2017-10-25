@@ -1,5 +1,5 @@
 #experimental changes
-
+#Add proper documentation
 
 def main():
     print('enter a list')
@@ -7,6 +7,10 @@ def main():
     while(key!=''):
         key=int(input())
         lst.append=key
+        
     print(lst)   
 if __name__=='__main__':
     main()
+    
+    
+   
