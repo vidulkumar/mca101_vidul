@@ -1,0 +1,22 @@
+def isoTriangle(c):
+    '''
+    objective: To print a isoscales triangle with any character
+    approach : use multiple print statements
+    '''
+    print('       ',c)
+    print('     ',c,c,c)
+    print('   ',c,c,c,c,c)
+    print('  ',c,c,c,c,c,c,c)
+    print('',c,c,c,c,c,c,c,c,c)
+    
+def main():
+    '''
+    objective:To print a isoscales triangle with any character
+    approach :use isoTriangle function
+    input    :any character
+    '''
+    char = input(' any character ')
+    isoTriangle(char)
+    
+if __name__=='__main__':
+    main()
