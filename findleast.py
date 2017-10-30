@@ -1,4 +1,14 @@
 def findleast(lst,lb,ub,least = 0,lc=0,flag=0):
+    '''
+    Objective: To find least element in a list  
+    Input Variables : 
+        lst : The list containing element
+        lb : lower bound of the list
+        ub : upper bound of the list
+        lc :
+        flag : Iterative variable
+    Output :
+    '''
     if(flag==0):
         least=lst[lb]
         lc=lb
@@ -15,6 +25,13 @@ def findleast(lst,lb,ub,least = 0,lc=0,flag=0):
 
 
 def selsort(lst,count=0):
+    '''
+    Objective: To sort a list   
+    Input Variables : 
+        lst : List containing variables
+        count : Iterative variable
+    Output :
+    '''
     if(lst==[]):
         return
     elif(count==len(lst)-2):
@@ -26,6 +43,8 @@ def selsort(lst,count=0):
        del lst[leastindx]
        lst.insert(count,ele)
        selsort(lst,count+1)
+
+#test cases
 a=[3,2,4,0,1]
 selsort(a)
        
