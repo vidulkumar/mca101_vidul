@@ -5,8 +5,9 @@ def result(hindi,english,maths,science,maximum):
     input     : hindi,english,maths,science,maximum passed by main()
     '''
     total = int(hindi+english+maths+science)
+    assert maximum>0 and maximum<=400
     avg   = total/4
-    percent = total/maximum*100
+    percent = float(total/maximum)*100
     print('average of marks is ',avg)
     print('percentage of marks is ',percent,'%')
      
@@ -21,7 +22,8 @@ def main():
     maths = int(input('marks in maths'))
     science = int(input('marks in science'))
     maximum = int(input('maximum marks '))
-    result(hindi,english,maths,science,maximum)
+    res=result(hindi,english,maths,science,maximum)
+    print(res)
 if __name__ == '__main__': 
      main()
 
