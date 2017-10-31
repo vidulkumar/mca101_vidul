@@ -27,5 +27,5 @@ def selsort(lst,count=0):
        lst.insert(count,ele)
        selsort(lst,count+1)
 a=[3,2,4,0,1]
-selsort(a)
+print(selsort(a))
        
