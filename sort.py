@@ -1,5 +1,10 @@
   
 def insertp(lst, element,count=0):
+  '''
+  Objective : 
+  Input Variables :
+  Output : 
+  '''
     
     if element<lst[0]:
         lst.insert(0,element)
@@ -16,6 +21,11 @@ def insertp(lst, element,count=0):
            
 
 def sortlist(lst,count=0):
+  '''
+  Objective : 
+  Input Variables :
+  Output : 
+  '''
     if count==len(lst)-1:
         return
     elif lst[count]<lst[count+1]:
