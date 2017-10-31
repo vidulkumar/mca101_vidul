@@ -9,15 +9,14 @@ def rtTriangle():
       print ('***')
       print ('****')
     
-      def main():
-        '''
+def main():
+    '''
         objective : To print right triangle
         approach  : by calling rtTriangle function
-        '''
-        rtTriangle()
-        print ('End of output')
+    '''
+    rtTriangle()
+    print ('End of output')
 
-        '''if __name__ == '__main__': '''
+if __name__ == '__main__':
       main()
-rtTriangle()   
 print('End of program')
