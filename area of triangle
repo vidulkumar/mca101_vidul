@@ -8,7 +8,7 @@ def areaTriangle(base,height):
       approach: multiply base and height and 1/2
       return value : Area of the Triangle
       '''
-      area = (1/2) * base * height
+      area = (0.5) * base * height
       return area
     
 def main():
