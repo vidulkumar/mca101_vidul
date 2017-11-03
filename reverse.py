@@ -1,3 +1,9 @@
+'''
+Objective: TO reverse the list passed
+Approach: Recursive
+return Value : Reversed list
+'''
+
 def reverse(lst,count=0):
     if count==(len(lst))//2:
         return
