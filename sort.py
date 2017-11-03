@@ -1,5 +1,10 @@
   
 def insertp(lst, element,count=0):
+    '''
+    Objective    : To insert an element at appropriate position in a sorted list
+    Return Value : Updated List
+    Approach : Recursive
+    '''
     
     if element<lst[0]:
         lst.insert(0,element)
@@ -16,6 +21,11 @@ def insertp(lst, element,count=0):
            
 
 def sortlist(lst,count=0):
+    '''
+    OBJECTIVE: tO SORT A LIST
+    APPROACH: rECURSIVE USING insertp(LST,ELEMENT,COUNT=0) FUNCTION
+    
+    '''
     if count==len(lst)-1:
         return
     elif lst[count]<lst[count+1]:
