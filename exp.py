@@ -8,5 +8,8 @@ def main():
         key=int(input())
         lst.append=key
     print(lst)   
+    
+    
+    
 if __name__=='__main__':
     main()
